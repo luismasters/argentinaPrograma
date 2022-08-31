@@ -3,6 +3,7 @@
 .navbar.navbar-expand-lg.bg-ligth {
 background:rgba(37, 150, 243, 0.432) ;
 
+
 }
 i.fa-brands.fa-square-facebook.fa-2xl:hover {
 color: blue;
@@ -28,6 +29,16 @@ i.fa-solid.fa-user.fa-2xl:hover{
     --bs-list-group-bg:transparent;
     --bs-list-group-border-width: 0;
 }
+.foto-perfil {
+position: relative;
+    width: 15%;
+    border-radius: 50%;
+    margin-top: -20px;
+    z-index: 1;
+    text-align: center;
+    
+    
+    }
 
 /*section.about{
     margin-top:30rem;
@@ -36,16 +47,7 @@ section.dashboard, section.panel{
 margin-top:6rem;
 }
 
-section.perfil{
-    position:absolute;
-    height:200px;
-    width:85rem;
-    top: 27rem auto;
-    left : -150px;
-    z-index: 1; 
-    margin-top: -10.5rem;
 
-}
 section.experiencia{
     /*position:absolute;*/
     height:200px;
@@ -90,10 +92,38 @@ margin-top: -40px;
 margin-bottom: -40px;
 }
 
-.d-block-w-100 {
-width:100%;
-height:10%;
+
+.Cimg {
+ 
+width: 100%;
+height: 35%;
+z-index: -1;
+
+}
+#sobre-mi{
+
+text-align:left;
+margin-top: -300px;
+margin-left: 250px;
+z-index: 1;
+
+}
 
 
+p {
 
+font-size: 20px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+main {
+
+ background-color:rgba(128, 128, 128, 0.488);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#a {
+
+    background-color: rgba(105, 105, 105, 0.533);
 }
