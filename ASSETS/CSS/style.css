@@ -1,107 +1,108 @@
-
-
 .navbar.navbar-expand-lg.bg-ligth {
-background:rgba(37, 150, 243, 0.432) ;
-
-
+    background: rgba(37, 150, 243, 0.432);
 }
+
+
+
 i.fa-brands.fa-square-facebook.fa-2xl:hover {
-color: blue;
+    color: blue; 
 }
-i.fa-brands.fa-instagram.fa-2xl:hover {
-  color: rgb(194, 4, 109);  
+
+i.fa-brands.fa-google.fa-2xl:hover {
+    color: rgb(194, 4, 109);
 }
+
 i.fa-brands.fa-square-github.fa-2xl:hover {
     color: black;
 }
-i.fa-brands.fa-square-twitter.fa-2xl:hover{
+
+i.fa-brands.fa-square-twitter.fa-2xl:hover {
     color: rgb(0, 172, 238);
 }
-i.fa-solid.fa-user-lock.fa-2xl:hover{
-    color: rgba(37, 20, 187, 0.856);
 
-}
-i.fa-solid.fa-user.fa-2xl:hover{
+i.fa-solid.fa-user-lock.fa-2xl:hover {
     color: rgba(37, 20, 187, 0.856);
-    
 }
-.list-group{
-    --bs-list-group-bg:transparent;
+
+i.fa-solid.fa-user.fa-2xl:hover {
+    color: rgba(37, 20, 187, 0.856);
+}
+
+.list-group {
+    --bs-list-group-bg: transparent;
     --bs-list-group-border-width: 0;
 }
+
 #foto-perfil {
-position: relative;
+    position: relative;
     width: 10%;
     border-radius: 50%;
-   
-    
-    
-    
-    }
+}
 
-/*section.about{
-    margin-top:30rem;
-}*/
-section.dashboard, section.panel{
-margin-top:6rem;
+section.dashboard,
+section.panel {
+    margin-top: 6rem;
 }
 
 
-section.experiencia{
+section.experiencia {
     /*position:absolute;*/
-    height:200px;
-    width:70rem;
-    left : -150px;
-    z-index: 1; 
-      margin-top: 30rem;
+    height: 200px;
+    width: 70rem;
+    left: -150px;
+    z-index: 1;
+    margin-top: 30rem;
 }
 
-section.educacion{
-    height:200px;
-    width:70rem;
-    left : -150px;
-    z-index: 1; 
-      margin-top: 16rem;
-}
-section.proyectos{
-    height:200px;
-    width:70rem;
-    left : -150px;
-    z-index: 1; 
-      margin-top: 16rem; 
-}
-section.footer{
-    height:200px;
-    width:70rem;
-    left : -150px;
-    z-index: 1; 
-      margin-top: 16rem;   
-}
-section.habilidades{
-    height:200px;
-    width:70rem;
-    left : -150px;
-    z-index: 1; 
-      margin-top: 16rem;
+section.educacion {
+    height: 200px;
+    width: 70rem;
+    left: -150px;
+    z-index: 1;
+    margin-top: 16rem;
 }
 
-#aplogo{
-width: 25%;
-margin-top: -40px;
-margin-bottom: -40px;
+section.proyectos {
+    height: 200px;
+    width: 70rem;
+    left: -150px;
+    z-index: 1;
+    margin-top: 16rem;
+}
+
+section.footer {
+    height: 200px;
+    width: 70rem;
+    left: -150px;
+    z-index: 1;
+    margin-top: 16rem;
+}
+
+section.habilidades {
+    height: 200px;
+    width: 70rem;
+    left: -150px;
+    z-index: 1;
+    margin-top: 16rem;
+}
+
+#aplogo {
+    width: 25%;
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
 
 
 p {
 
-font-size: 20px;
-font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 
 }
 
 main {
 
- background-color:rgba(128, 128, 128, 0.488);
+    background-color: rgba(128, 128, 128, 0.488);
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -109,25 +110,26 @@ main {
 #b,
 #c {
     text-align: center;
-    background-color: rgba(105, 105, 105, 0.533);
+    background-color: rgb(36, 38, 41);
+    color:white;
 }
 
 .flex-container {
-width: 100%;
-height: 70%;
-border:5px;
-display: flex;
-background-color: rgb(36, 38, 41);
+    width: 100%;
+    height: 70%;
+    border: 5px;
+    display: flex;
+    background-color: rgb(36, 38, 41);
 
 
 }
 
 
-.cajatop{
+.cajatop {
 
-height: 500px;
-background-color: rgb(36, 38, 41);
-margin-top: 0%;
+    height: 500px;
+    background-color: rgb(36, 38, 41);
+    margin-top: 0%;
 
 
 }
@@ -138,29 +140,54 @@ margin-top: 0%;
     height: 500px;
     background-color: rgb(36, 38, 41);
     margin-bottom: 0%;
-    
+
 
 
 }
 
 .backwhite {
-background-color: white;
-width: 100%;
- margin: 0%;  
-  padding-right: 0px;
-  padding-left:0px ;
-  padding-top: 0px;
-  
+    background-color: white;
+    width: 100%;
+    margin: 0%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+
+}
+
+#bt2:hover,
+#bt1:hover {
+
+    width: 15%;
+    background-color: rgba(37, 150, 243, 0.432);
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+#bt3:hover {
+
+    width: 15%;
+    background-color: rgba(37, 150, 243, 0.432);
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
 }
 
 
- 
 
 #Cimg,
 #Cimg1,
 #Cimg2 {
 
-max-width: 100%;
-height: 400px;
+    max-width: 100%;
+    height: 400px;
+
+}
+
+a{color:white;
+    text-decoration: none;
+
+
 
 }
