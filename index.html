@@ -20,14 +20,25 @@
 
   <header>
     <!--barra de nav-->
+    <div class="container-fluid" id="top-relative">
+
+
+    </div>
+
+
     <nav class="navbar navbar-expand-lg bg-ligth fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
+
           <img src="ASSETS/IMG/APLogo-20-20.png" id="aplogo" alt="" width="140" height="auto">
         </a>
-        <ul class="list-group list-group-horizontal">
-        <a target="_blank" href="https://www.google.com/intl/es-419/gmail/about/"><li class="list-group-item"><i class="fa-brands fa-google fa-2xl"></i></li></a>
-          <a target="_blank" href="https://www.facebook.com/"><li class="list-group-item"><i class="fa-brands fa-square-facebook fa-2xl"></i></li></a>
+        <ul class="list-group list-group-horizontal ">
+          <a target="_blank" href="https://www.google.com/intl/es-419/gmail/about/">
+            <li class="list-group-item"><i class="fa-brands fa-google fa-2xl"></i></li>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/">
+            <li class="list-group-item"><i class="fa-brands fa-square-facebook fa-2xl"></i></li>
+          </a>
           <li class="list-group-item"><i class="fa-brands fa-square-github fa-2xl"></i></li>
           <li class="list-group-item"><i class="fa-brands fa-square-twitter fa-2xl"></i></li>
           <!-- Button trigger modal -->
@@ -37,6 +48,7 @@
             </i>
           </li>
         </ul>
+
       </div>
     </nav>
 
@@ -74,13 +86,14 @@
 
 
     <div class="cajatop">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
+          <div class="col-2 text-center">
+            <img src="ASSETS/IMG/yo3.png" alt="" id="foto-perfil">
+          </div>
+          <div class="col-10">
 
-
-
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="padding-top: 93px;">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" style="padding-top: 0px;">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                   aria-current="true" aria-label="Slide 1"></button>
@@ -91,9 +104,9 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="ASSETS/IMG/1.jpg" class="d-block w-100" alt="..." id="Cimg">
+                  <img src="ASSETS/IMG/5.jpg" class="d-block w-100" alt="..." id="Cimg">
                   <div class="carousel-caption d-none d-md-block">
-                    <button id="bt2" type="button" class="btn btn-dark" ><a href="#rf1">Acerca de mi</a> </button>
+                    <button id="bt2" type="button" class="btn btn-dark"><a href="#rf1">Acerca de mi</a> </button>
                   </div>
                 </div>
                 <div class="carousel-item">
@@ -107,7 +120,6 @@
                   <img src="ASSETS/IMG/3.jpg" class="d-block w-100" alt="..." id="Cimg2">
                   <div class="carousel-caption d-none d-md-block">
                     <button id="bt3" type="button" class="btn btn-dark">Hard & Soft Skills</button>
-
                   </div>
                 </div>
               </div>
@@ -124,6 +136,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
 
@@ -136,10 +149,9 @@
     </section>
     <section id="sobre-mi" class="perfil">
       <div class="container text-center">
-        <img src="ASSETS/IMG/yo.jpg" alt="..." id="foto-perfil">
-        <h1 class="fn-normal"><b>Luis Cardinali</b></h1>
-        <h6>Full Stack Developer training</h6>
-        <h6>Buenos Aires (Argentina)</h6>
+        <h1 class="fn-normal"><b> &lt;Soy Luis Cardinali./&gt;</b></h1>
+        <h6>Full Stack Developer training<br>
+          Buenos Aires (Argentina)</h6>
       </div>
       </div>
       </div>
@@ -149,32 +161,36 @@
     <section>
       <div class="container pb-5">
         <div class="accordion" id="accordionPanelsStayOpenExample">
-          
-
           <div class="accordion-item">
-            <h2  class="accordion-header" id="panelsStayOpen-headingOne">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
-                aria-controls="panelsStayOpen-collapseOne"style="background-color:rgba(25, 74, 114, 0.691)">
-                <h2 >ACERCA DE MI</h2>
+                aria-controls="panelsStayOpen-collapseOne" style="background-color:rgba(25, 74, 114, 0.691)">
+                <h2>ACERCA DE MI</h2>
               </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
               aria-labelledby="panelsStayOpen-headingOne" style="">
               <div class="container">
                 <div class="row">
-                  <div  class="col-6 bg-white">
+                  <div class="col-6 bg-white">
                     <div class="accordion-body">
 
-                     <div style="text-align:center ;"><img id="rf1" src="ASSETS/IMG/sobremi.png" alt=".." width="50%" ></div>
+                      <div style="text-align:center ;"><img id="rf1" src="ASSETS/IMG/sobremi.png" alt=".." width="50%">
+                      </div>
                     </div>
 
                   </div>
-                  <div id="b" class="col-6 p-3"> <p>Soy Venezolano residente en Buenos Aires Argentina, Estudio Tecnicatura Universitaria en programacion
-                  y soy alumno participante de Argentina Programa, aficionado del mundo de la tecnologia y los avances, estoy entusiasmado por seguir ampliando 
-                  mis conocimientos sobre la programacion y convertirme en un profesional del area.
-                  .
-                  </p>
+                  <div id="b" class="col-6">
+                    <p>Soy Venezolano residente en Buenos Aires Argentina, Estudio Tecnicatura Universitaria en
+                      programacion
+                      y soy alumno participante del
+                      programa de capacitacion nacional Argentina programa, aficionado del mundo de la tecnologia y de
+                      sus
+                      avances, estoy entusiasmado por seguir ampliando
+                      mis conocimientos sobre la programacion y convertirme en un profesional del area.
+
+                    </p>
                   </div>
                 </div>
               </div>
@@ -184,11 +200,11 @@
 
 
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo" >
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                 aria-controls="panelsStayOpen-collapseTwo" style="background-color: rgba(25, 74, 114, 0.691)">
-                <h2>EXPERIENCIA</h2>
+                <h2>EDUCACION</h2>
               </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
@@ -198,19 +214,22 @@
                   <div id="b" class="col-6">
                     <div class="accordion-body">
 
-                      <p>Tengo expericia con el leguaje de programacion C++, en el cual he desarrollado codigo para
-                        aplicaciones de
-                        consolas, trabajando con vectores,matrices,programacion orientada a objetos
-                        (POO) en la elaboracion de sistemas de gestiones espesificamente gestion de ventas y procesos en
-                        un a comercios ,tambien participe de la logica
-                        para la realizacion de juegos de consola en c++, actulamente me encuentro adquirendo y expandiendo
-                        conocimientos en la programacion y
-                         el desarrollo web.</p>
+                      <p>-Curse Estudios de Contaduria publica En la Universidad de Carabobo Faculad de ciencias
+                        Economicas y Sociales "FACES" en Venezuela cursando hasta el 7° Semestre de la carrera.<br>
+                        -Curse Estudios de ingenieria Electronica cursando hasta el 4to Semestre de la carrera "ciclo Basico"
+                        en el Instituto Politecnico Universitario Santiago Mariño en Venezuela.<br>
+                        Actualmente.<br>
+                        -Estoy cursando la Tecnicatura Universitaria En Programacion en la UTN FRGP cursando el 3er Cuatrimestre.<br>
+                        -Tambien soy Alumno del programa de capacitacion nacional Argentina Programa 2da Etapa #YoProgramo. 
+                        con una certificacion otorgada por aprobar la primera atapa #SeProgramar.
+                      </p>
                     </div>
 
                   </div>
-                  <div class="col-6 bg-white img-fluid" id="w1"> <div style="text-align:center ;"><img src="ASSETS/IMG/exp.png" alt=".." width="70%"  ></div>
-                </div>
+                  <div class="col-6 bg-white img-fluid" id="w1">
+                    <div style="text-align:center ;"><img src="ASSETS/IMG/exp.png" alt=".." width="400px"
+                        class="img-fluid"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -230,19 +249,82 @@
               aria-labelledby="panelsStayOpen-headingThree">
               <div class="container">
                 <div class="row">
-                  <div  class="col-6 bg-white">
+                  <div class="col-6 bg-white">
+                    <div class="accordion-body">
+                      <img style="text-align:center ;" src="ASSETS/IMG/hard-skills-soft-skills-300x274.jpg" alt=""
+                        class="img-fluid" width="400px">
+
+                    </div>
+                  </div>
+                  <div id="b" class="col-6">
+                    <table class="table table-dark">
+                      <thead>
+                        <tr>
+                          <th>HARD SKILLS</th>
+                          <th>SOFT SKILLS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>-Buena base en los fundamentos de la programacion</th>
+                          <th>-comunicacion asertiva</th>
+                        </tr>
+                        <tr>
+                          <th>-Excelente facultad logica y anlitica </th>
+                          <th>-buena capacidad de respuestas a imprevistos</th>
+                        </tr>
+                        <tr>
+                          <th>-Bases tecnicas en informatica</th>
+                          <th>-capacidad de afrontar cambios</th>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFor">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFor" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFor" style="background-color: rgba(25, 74, 114, 0.691)">
+                <h2>EXPERIENCIA</h2>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFor" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFor" style="">
+              <div class="container">
+                <div class="row">
+                  <div id="b" class="col-6">
                     <div class="accordion-body">
 
-                     
+                      <p>Tengo expericia con el leguaje de programacion C++, en el cual he desarrollado codigo para
+                        aplicaciones de
+                        consolas, trabajando con vectores,matrices,programacion orientada a objetos
+                        (POO) en la elaboracion de sistemas de gestiones espesificamente gestion de ventas y procesos en
+                        comercios ,tambien participe de la logica
+                        para la realizacion de juegos de consola en c++, actulamente me encuentro adquirendo y
+                        expandiendo
+                        conocimientos en la programacion y
+                        el desarrollo web.</p>
                     </div>
 
                   </div>
-                  <div id="b" class="col-6 p-3"> <p>soy estudiante de la carrera Tecnicatura Universitaria en programacion, y alumno participante del programa 
-                    de capacitacion nacional Argentina programa.</p></div>
+                  <div class="col-6 bg-white img-fluid" id="w1">
+                    <div style="text-align:center ;"><img src="ASSETS/IMG/exp.png" alt=".." width="400px" class="img-fluid"></div>
+                  </div>
                 </div>
               </div>
-        </div>
-      </div>
+            </div>
+          </div>
+
+
+
+
     </section>
 
     <footer>

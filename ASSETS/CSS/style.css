@@ -1,8 +1,6 @@
 .navbar.navbar-expand-lg.bg-ligth {
-    background: rgba(37, 150, 243, 0.432);
+    background: rgba(8, 70, 120, 0.864);
 }
-
-
 
 i.fa-brands.fa-square-facebook.fa-2xl:hover {
     color: blue; 
@@ -33,75 +31,49 @@ i.fa-solid.fa-user.fa-2xl:hover {
     --bs-list-group-border-width: 0;
 }
 
-#foto-perfil {
-    position: relative;
-    width: 10%;
-    border-radius: 50%;
-}
 
-section.dashboard,
-section.panel {
-    margin-top: 6rem;
-}
-
-
-section.experiencia {
-    /*position:absolute;*/
-    height: 200px;
-    width: 70rem;
-    left: -150px;
-    z-index: 1;
-    margin-top: 30rem;
-}
-
-section.educacion {
-    height: 200px;
-    width: 70rem;
-    left: -150px;
-    z-index: 1;
-    margin-top: 16rem;
-}
-
-section.proyectos {
-    height: 200px;
-    width: 70rem;
-    left: -150px;
-    z-index: 1;
-    margin-top: 16rem;
-}
-
-section.footer {
-    height: 200px;
-    width: 70rem;
-    left: -150px;
-    z-index: 1;
-    margin-top: 16rem;
-}
-
-section.habilidades {
-    height: 200px;
-    width: 70rem;
-    left: -150px;
-    z-index: 1;
-    margin-top: 16rem;
+#foto-perfil{
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;    
+    margin-top: 50%;
 }
 
 #aplogo {
     width: 25%;
-    margin-top: -40px;
-    margin-bottom: -40px;
 }
 
-
 p {
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+padding-top: 30px;
+padding-left: 10px;
+padding-right: 10px;padding-bottom: 30px;
+text-align: justify;
+}
+
+table{
 
     font-size: 20px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+padding-top: 30px;
+padding-left: 10px;
+padding-right: 10px;padding-bottom: 30px;
+text-align: center;
+font-weight: normal;
+
+
+}
+
+
+#top-relative{
+
+background-color:  rgb(36, 38, 41);
+height: 92px;
 
 }
 
 main {
-
     background-color: rgba(128, 128, 128, 0.488);
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -114,34 +86,17 @@ main {
     color:white;
 }
 
-.flex-container {
-    width: 100%;
-    height: 70%;
-    border: 5px;
-    display: flex;
-    background-color: rgb(36, 38, 41);
-
-
-}
-
 
 .cajatop {
-
-    height: 500px;
+    height: 610px;
     background-color: rgb(36, 38, 41);
-    margin-top: 0%;
-
 
 }
 
 .fot {
-
-
     height: 500px;
     background-color: rgb(36, 38, 41);
     margin-bottom: 0%;
-
-
 
 }
 
@@ -166,7 +121,6 @@ main {
 }
 
 #bt3:hover {
-
     width: 15%;
     background-color: rgba(37, 150, 243, 0.432);
     font-size: 20px;
@@ -179,15 +133,27 @@ main {
 #Cimg,
 #Cimg1,
 #Cimg2 {
-
     max-width: 100%;
-    height: 400px;
-
-}
+    height: 610px;
+padding-left: 0px;}
 
 a{color:white;
     text-decoration: none;
+}
 
+h1{
+    font-size: 115px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #2c2c2c;
+letter-spacing: .05em;
+text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 
+}
 
+h6{
+ font-size: 24px;
+ color: #2c2c2c;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+letter-spacing: .05em;
+padding-bottom: 15px;
 }
