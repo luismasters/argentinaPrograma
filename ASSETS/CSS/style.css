@@ -1,9 +1,11 @@
+
+
 .navbar.navbar-expand-lg.bg-ligth {
-    background: rgba(8, 70, 120, 0.864);
+    background: #107c107f;
 }
 
 i.fa-brands.fa-square-facebook.fa-2xl:hover {
-    color: blue; 
+    color: blue;
 }
 
 i.fa-brands.fa-google.fa-2xl:hover {
@@ -32,128 +34,320 @@ i.fa-solid.fa-user.fa-2xl:hover {
 }
 
 
-#foto-perfil{
-    width: 80%;
-    height: 50%;
-    border-radius: 50%;    
-    margin-top: 50%;
-}
-
-#aplogo {
-    width: 25%;
-}
-
-p {
-    font-size: 24px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-padding-top: 30px;
-padding-left: 10px;
-padding-right: 10px;padding-bottom: 30px;
-text-align: justify;
-}
-
-table{
-
-    font-size: 20px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-padding-top: 30px;
-padding-left: 10px;
-padding-right: 10px;padding-bottom: 30px;
-text-align: center;
-font-weight: normal;
-
-
-}
-
-
-#top-relative{
-
-background-color:  rgb(36, 38, 41);
-height: 92px;
-
-}
-
-main {
-    background-color: rgba(128, 128, 128, 0.488);
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+.cajatop {
+    background-color: black;
+    background-image: url(../IMG/b2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 120px;
+    padding-left: 180px;
 }
 
 #a,
 #b,
 #c {
     text-align: center;
-    background-color: rgb(36, 38, 41);
-    color:white;
+    background-color: #77bb44;
+    color: black;
 }
 
-
-.cajatop {
-    height: 610px;
-    background-color: rgb(36, 38, 41);
-
+#aplogo {
+    width: 25%;
 }
 
-.fot {
-    height: 500px;
-    background-color: rgb(36, 38, 41);
-    margin-bottom: 0%;
-
-}
-
-.backwhite {
-    background-color: white;
-    width: 100%;
-    margin: 0%;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-
-}
-
-#bt2:hover,
-#bt1:hover {
-
-    width: 15%;
-    background-color: rgba(37, 150, 243, 0.432);
+p,
+table,
+li {
     font-size: 24px;
-    color: black;
-    font-weight: bolder;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align: justify;
 }
 
-#bt3:hover {
-    width: 15%;
-    background-color: rgba(37, 150, 243, 0.432);
-    font-size: 20px;
-    color: black;
-    font-weight: bolder;
+#foto-perfil {
+    width: 25%;
+    height: 10%;
+    border-radius: 50%;
 }
 
-
-
-#Cimg,
-#Cimg1,
-#Cimg2 {
-    max-width: 100%;
-    height: 610px;
-padding-left: 0px;}
-
-a{color:white;
-    text-decoration: none;
+#rf2 {
+    width: 300px;
+    text-align: center;
 }
 
-h1{
-    font-size: 115px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: #2c2c2c;
-letter-spacing: .05em;
-text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+#rf1 {
+    width: 300px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 50%;
 
 }
 
-h6{
- font-size: 24px;
- color: #2c2c2c;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-letter-spacing: .05em;
-padding-bottom: 15px;
+
+.st1 {
+
+    background-color: #107C10;
+    font-family: 'Bungee Hairline', cursive;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
 }
+
+
+#ho-so {
+    font-size: 60px;
+    font-family: 'Bungee Hairline', cursive;
+    color: #107c10;
+    ;
+    letter-spacing: -10px;
+    text-shadow: 4px 4px 0px #b1b1b1ab;
+    ,
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+#mi-po {
+    font-size: 80px;
+    font-family: 'Bungee Hairline', cursive;
+    color: #107c10;
+    ;
+    letter-spacing: -10px;
+    text-shadow: 4px 4px 0px #b1b1b1ab;
+    ,
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding-top: 100px;
+
+}
+
+
+
+
+h6 {
+
+    font-size: 16px;
+    font-family: 'Bungee Hairline', cursive;
+    color: rgb(3, 255, 8);
+    letter-spacing: .05em;
+    padding-bottom: 150px;
+
+}
+
+#b3 {
+    padding-top: 400px;
+    width: 20%;
+    position: absolute;
+    right: 200px;
+}
+
+#acor {
+
+    background-color: black;
+
+}
+
+
+section {
+
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+
+.porcentaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.container .card, 
+.container .card1 {
+    position: relative;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 23px;
+}
+
+.container .card:hover,
+.container .card1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.container .card::before,
+container .card1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.porcent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #fff;
+    background: rgb(29, 110, 33);
+    z-index: 1000;
+}
+
+.porcent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.porcent .number h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.card:hover .porcent .number h2,
+.card1:hover .porcent .number h2 {
+    color: rgb(0, 0, 0);
+    font-size: 53px;
+}
+
+.porcent .number h2 span {
+    color: rgb(0, 0, 0);
+}
+
+.text {
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-85deg) !important;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #e79595a2;
+    stroke-width: 10;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px);
+}
+
+/*Claculo para simular el porcent*/
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 80)/100);
+    stroke:#107c10;
+}
+
+.card:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 30)/100);
+    stroke: #107c10;
+}
+
+.card:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 50)/100);
+    stroke:#107c10;
+}
+
+
+.card1:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 50)/100);
+    stroke:#107c10;
+}
+
+.card1:nth-child(2) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 40)/100);
+    stroke: #107c10;
+}
+
+.card1:nth-child(3) svg circle:nth-child(2) {
+    stroke-dashoffset: calc(440 - (440 * 50)/100);
+    stroke:#107c10;
+}
+
+@media only screen and (max-width:600px) {
+    .porcentaje {
+        height: auto;
+        margin-left: 30px;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and(max-width: 1068px) {
+    .container {
+        max-width: 80rem;
+        min-width: 70rem;
+    }
+
+}
+
+@media screen and (max-width: 868px) {
+
+    .container {
+        max-width: 80rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 2.5rem;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
